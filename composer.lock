@@ -592,16 +592,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.13.1",
+            "version": "2.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "95e7828100de18b4e269fb1703be530082d5166d"
+                "reference": "adee536f95101929f262b8c59e8a61472f347d58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/95e7828100de18b4e269fb1703be530082d5166d",
-                "reference": "95e7828100de18b4e269fb1703be530082d5166d",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/adee536f95101929f262b8c59e8a61472f347d58",
+                "reference": "adee536f95101929f262b8c59e8a61472f347d58",
                 "shasum": ""
             },
             "require": {
@@ -691,7 +691,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.13.1"
+                "source": "https://github.com/guzzle/psr7/tree/2.13.2"
             },
             "funding": [
                 {
@@ -707,7 +707,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-08-24T09:13:11+00:00"
+            "time": "2026-10-17T23:49:46+00:00"
         },
         {
             "name": "guzzlehttp/uri-template",
@@ -1319,11 +1319,11 @@
         },
         {
             "name": "kipchak/core",
-            "version": "3.10",
+            "version": "3.11",
             "source": {
                 "type": "git",
                 "url": "https://1x.ax/mamluk/kipchak/core",
-                "reference": "579b700972f957c5a7fe6ca8a83b7552dab329a9"
+                "reference": "b3d489ab091ca66134a4277ed9f87e8ee8527a59"
             },
             "require": {
                 "cuyz/valinor": "^2",
@@ -1352,15 +1352,15 @@
                 "apis",
                 "microservices"
             ],
-            "time": "2026-10-17T06:43:11+00:00"
+            "time": "2026-10-18T05:19:32+00:00"
         },
         {
             "name": "kipchak/driver-config",
-            "version": "1.28",
+            "version": "1.29",
             "source": {
                 "type": "git",
                 "url": "https://1x.ax/mamluk/kipchak/drivers/config",
-                "reference": "42b6c4d8dd611089a7bfedc695a212d5ff73bbc3"
+                "reference": "3b4017f4e75ebdb337e92aca3f1d61aa357cf0bb"
             },
             "require": {
                 "kipchak/core": "^2 || ^3"
@@ -1384,15 +1384,15 @@
                 "http",
                 "microservices"
             ],
-            "time": "2026-10-17T06:43:31+00:00"
+            "time": "2026-10-18T05:19:56+00:00"
         },
         {
             "name": "kipchak/driver-filecache",
-            "version": "1.28",
+            "version": "1.29",
             "source": {
                 "type": "git",
                 "url": "https://1x.ax/mamluk/kipchak/drivers/filecache",
-                "reference": "106548ac02baf1b0930b427475eb87c3d46d2361"
+                "reference": "dff48253b9cf756941cda41621e1cf4b53da2882"
             },
             "require": {
                 "kipchak/core": "^2 || ^3",
@@ -1417,15 +1417,15 @@
                 "http",
                 "microservices"
             ],
-            "time": "2026-10-17T06:44:29+00:00"
+            "time": "2026-10-18T05:20:53+00:00"
         },
         {
             "name": "kipchak/driver-http",
-            "version": "2.11",
+            "version": "2.12",
             "source": {
                 "type": "git",
                 "url": "https://1x.ax/mamluk/kipchak/drivers/http",
-                "reference": "03db1d750c290800056e7616aa4bc8e5bba67cb0"
+                "reference": "6578e00c9a5baa3f34c1054a99e47dac61407886"
             },
             "require": {
                 "guzzlehttp/guzzle": "^7.10",
@@ -1460,7 +1460,7 @@
                 "http",
                 "microservices"
             ],
-            "time": "2026-10-17T06:44:56+00:00"
+            "time": "2026-10-18T05:21:19+00:00"
         },
         {
             "name": "laravel/serializable-closure",
