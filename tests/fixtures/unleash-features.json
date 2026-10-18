@@ -1,0 +1,108 @@
+{
+  "version": 2,
+  "features": [
+    {
+      "name": "new-checkout",
+      "type": "release",
+      "enabled": true,
+      "project": "default",
+      "stale": false,
+      "strategies": [
+        {
+          "name": "flexibleRollout",
+          "constraints": [
+            {
+              "values": [
+                "pro"
+              ],
+              "inverted": false,
+              "operator": "IN",
+              "contextName": "plan",
+              "caseInsensitive": false
+            }
+          ],
+          "parameters": {
+            "groupId": "new-checkout",
+            "rollout": "100",
+            "stickiness": "default"
+          },
+          "variants": [
+            {
+              "name": "blue",
+              "weight": 1000,
+              "payload": {
+                "type": "json",
+                "value": "{\"colour\":\"blue\"}"
+              },
+              "stickiness": "default",
+              "weightType": "variable"
+            }
+          ]
+        }
+      ],
+      "variants": [],
+      "description": null,
+      "impressionData": false
+    },
+    {
+      "name": "kill-switch",
+      "type": "release",
+      "enabled": false,
+      "project": "default",
+      "stale": false,
+      "strategies": [
+        {
+          "name": "default",
+          "constraints": [],
+          "parameters": {},
+          "variants": []
+        }
+      ],
+      "variants": [],
+      "description": null,
+      "impressionData": false
+    },
+    {
+      "name": "rate-limit",
+      "type": "release",
+      "enabled": true,
+      "project": "default",
+      "stale": false,
+      "strategies": [
+        {
+          "name": "flexibleRollout",
+          "constraints": [],
+          "parameters": {
+            "groupId": "rate-limit",
+            "rollout": "100",
+            "stickiness": "default"
+          },
+          "variants": [
+            {
+              "name": "limit",
+              "weight": 1000,
+              "payload": {
+                "type": "number",
+                "value": "100"
+              },
+              "stickiness": "default",
+              "weightType": "variable"
+            }
+          ]
+        }
+      ],
+      "variants": [],
+      "description": null,
+      "impressionData": false
+    }
+  ],
+  "query": {
+    "environment": "development",
+    "inlineSegmentConstraints": true
+  },
+  "meta": {
+    "revisionId": 14,
+    "etag": "\"76d8bb0e:14:v1\"",
+    "queryHash": "76d8bb0e"
+  }
+}

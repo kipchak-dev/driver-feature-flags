@@ -1,0 +1,109 @@
+{
+  "id": 1,
+  "api_key": "LGNQ3MAqLm4ufXg5FesSr7",
+  "project": {
+    "id": 1,
+    "name": "Flags",
+    "organisation": {
+      "id": 1,
+      "name": "Kipchak",
+      "feature_analytics": false,
+      "stop_serving_flags": false,
+      "persist_trait_data": true
+    },
+    "hide_disabled_flags": false,
+    "segments": [
+      {
+        "id": 1,
+        "name": "pro",
+        "rules": [
+          {
+            "type": "ALL",
+            "rules": [
+              {
+                "type": "ANY",
+                "rules": [],
+                "conditions": [
+                  {
+                    "operator": "EQUAL",
+                    "value": "pro",
+                    "property_": "plan"
+                  }
+                ]
+              }
+            ],
+            "conditions": []
+          }
+        ],
+        "feature_states": [
+          {
+            "feature": {
+              "id": 1,
+              "name": "new-checkout",
+              "type": "STANDARD"
+            },
+            "enabled": true,
+            "django_id": 4,
+            "feature_segment": {
+              "priority": 0
+            },
+            "featurestate_uuid": "71cf09b4-5f3b-4414-80fc-d58653af9903",
+            "feature_state_value": "blue",
+            "multivariate_feature_state_values": []
+          }
+        ]
+      }
+    ],
+    "enable_realtime_updates": false,
+    "server_key_only_feature_ids": []
+  },
+  "feature_states": [
+    {
+      "feature": {
+        "id": 1,
+        "name": "new-checkout",
+        "type": "STANDARD"
+      },
+      "enabled": false,
+      "django_id": 1,
+      "feature_segment": null,
+      "featurestate_uuid": "50fb9a1a-f21c-43d3-9a2b-10d662e90845",
+      "feature_state_value": "blue",
+      "multivariate_feature_state_values": []
+    },
+    {
+      "feature": {
+        "id": 2,
+        "name": "kill-switch",
+        "type": "STANDARD"
+      },
+      "enabled": false,
+      "django_id": 2,
+      "feature_segment": null,
+      "featurestate_uuid": "12ef6f52-627c-4be6-9c29-fad9a795c1eb",
+      "feature_state_value": null,
+      "multivariate_feature_state_values": []
+    },
+    {
+      "feature": {
+        "id": 3,
+        "name": "rate-limit",
+        "type": "STANDARD"
+      },
+      "enabled": true,
+      "django_id": 3,
+      "feature_segment": null,
+      "featurestate_uuid": "fdba26a7-25aa-4422-ba53-809010257975",
+      "feature_state_value": 100,
+      "multivariate_feature_state_values": []
+    }
+  ],
+  "identity_overrides": [],
+  "name": "Development",
+  "allow_client_traits": true,
+  "updated_at": "2026-10-17T09:58:41.648304+00:00",
+  "hide_sensitive_data": false,
+  "hide_disabled_flags": null,
+  "use_identity_composite_key_for_hashing": true,
+  "use_identity_overrides_in_local_eval": true
+}

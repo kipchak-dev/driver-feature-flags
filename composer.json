@@ -1,0 +1,54 @@
+{
+    "name": "kipchak/driver-feature-flags",
+    "type": "library",
+    "description": "A feature flag driver for the Kipchak API Development Kit (ADK), evaluating flags from Unleash, Flagsmith or GrowthBook",
+    "keywords": [
+        "APIs",
+        "Feature Flags",
+        "Feature Toggles",
+        "Unleash",
+        "Flagsmith",
+        "GrowthBook",
+        "Microservices",
+        "Mamluk"
+    ],
+    "homepage": "https://mamluk.net",
+    "license": "MIT",
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Kipchak\\Driver\\FeatureFlags\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kipchak\\Driver\\FeatureFlags\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "kipchak/core": "^2 || ^3",
+        "kipchak/driver-config": "^1",
+        "kipchak/driver-filecache": "^1.28",
+        "kipchak/driver-http": "^2.10",
+        "psr/log": "^2 || ^3",
+        "psr/simple-cache": "^2 || ^3"
+    },
+    "require-dev": {
+        "flagsmith/flagsmith-php-client": "^5.1",
+        "growthbook/growthbook": "^2.6",
+        "phpunit/phpunit": "^12",
+        "unleash/client": "^2.11"
+    },
+    "suggest": {
+        "unleash/client": "For connections with 'provider' => 'unleash' (^2.11)",
+        "flagsmith/flagsmith-php-client": "For connections with 'provider' => 'flagsmith' (^5.1, needs ext-bcmath and ext-gmp)",
+        "growthbook/growthbook": "For connections with 'provider' => 'growthbook' (^2.6)"
+    }
+}

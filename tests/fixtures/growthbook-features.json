@@ -1,0 +1,1 @@
+{"status":200,"features":{"new-checkout":{"defaultValue":null,"rules":[{"condition":{"plan":"pro"},"force":{"colour":"blue"}}]},"kill-switch":{"defaultValue":false},"rate-limit":{"defaultValue":100}},"dateUpdated":"2026-10-17T12:24:40.214Z"}
