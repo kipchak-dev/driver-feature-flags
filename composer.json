@@ -50,5 +50,21 @@
         "unleash/client": "For connections with 'provider' => 'unleash' (^2.11)",
         "flagsmith/flagsmith-php-client": "For connections with 'provider' => 'flagsmith' (^5.1, needs ext-bcmath and ext-gmp)",
         "growthbook/growthbook": "For connections with 'provider' => 'growthbook' (^2.6)"
+    },
+    "extra": {
+        "kipchak": {
+            "type": "driver",
+            "config": "sample.config.php",
+            "configName": "kipchak.feature-flags.php",
+            "initialise": "\\Kipchak\\Driver\\FeatureFlags\\FeatureFlags::initialise($container);",
+            "after": [
+                "kipchak/driver-config",
+                "kipchak/driver-logger",
+                "kipchak/driver-filecache",
+                "kipchak/driver-http"
+            ],
+            "before": [],
+            "docs": "https://kipchak.dev/docs/driver-feature-flags"
+        }
     }
 }
