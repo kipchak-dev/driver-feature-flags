@@ -83,20 +83,20 @@
         },
         {
             "name": "cuyz/valinor",
-            "version": "2.7.0",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CuyZ/Valinor.git",
-                "reference": "6e89ca1afaa8543619fd9512e4665722f225fb38"
+                "reference": "473ba512c859a4441e382ca279778a67a302971d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CuyZ/Valinor/zipball/6e89ca1afaa8543619fd9512e4665722f225fb38",
-                "reference": "6e89ca1afaa8543619fd9512e4665722f225fb38",
+                "url": "https://api.github.com/repos/CuyZ/Valinor/zipball/473ba512c859a4441e382ca279778a67a302971d",
+                "reference": "473ba512c859a4441e382ca279778a67a302971d",
                 "shasum": ""
             },
             "require": {
-                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
+                "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0 || ~8.6.0"
             },
             "conflict": {
                 "phpstan/phpstan": "<1.0 || >= 3.0",
@@ -153,7 +153,7 @@
             ],
             "support": {
                 "issues": "https://github.com/CuyZ/Valinor/issues",
-                "source": "https://github.com/CuyZ/Valinor/tree/2.7.0"
+                "source": "https://github.com/CuyZ/Valinor/tree/2.8.0"
             },
             "funding": [
                 {
@@ -161,8 +161,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-11-12T10:33:19+00:00",
-            "published-time": "2026-11-12T10:33:37+00:00"
+            "time": "2026-11-19T15:08:51+00:00",
+            "published-time": "2026-11-19T15:22:15+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -386,22 +386,22 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.16.1",
+            "version": "7.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "81755d989b3007ca7f88a069857553cd08e7dc2e"
+                "reference": "f61ba5ea0a55032a55ddbb72cab7d307c1043654"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/81755d989b3007ca7f88a069857553cd08e7dc2e",
-                "reference": "81755d989b3007ca7f88a069857553cd08e7dc2e",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f61ba5ea0a55032a55ddbb72cab7d307c1043654",
+                "reference": "f61ba5ea0a55032a55ddbb72cab7d307c1043654",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "guzzlehttp/promises": "^2.6",
-                "guzzlehttp/psr7": "^2.13.2",
+                "guzzlehttp/promises": "^2.6.2",
+                "guzzlehttp/psr7": "^2.13.6",
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.5 || ^3.0",
@@ -494,7 +494,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.16.1"
+                "source": "https://github.com/guzzle/guzzle/tree/7.17.0"
             },
             "funding": [
                 {
@@ -510,21 +510,21 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-25T21:35:21+00:00",
-            "published-time": "2026-10-25T21:37:23+00:00"
+            "time": "2026-11-22T16:49:11+00:00",
+            "published-time": "2026-11-22T16:50:19+00:00"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "2.6.0",
+            "version": "2.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "3d88c829bd5f13d13847b39067dbf09a60af2154"
+                "reference": "72e93ed2b1f3d8c09d1460c950bd5726face7ccd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/3d88c829bd5f13d13847b39067dbf09a60af2154",
-                "reference": "3d88c829bd5f13d13847b39067dbf09a60af2154",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/72e93ed2b1f3d8c09d1460c950bd5726face7ccd",
+                "reference": "72e93ed2b1f3d8c09d1460c950bd5726face7ccd",
                 "shasum": ""
             },
             "require": {
@@ -579,7 +579,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/2.6.0"
+                "source": "https://github.com/guzzle/promises/tree/2.6.2"
             },
             "funding": [
                 {
@@ -595,21 +595,21 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-18T12:46:59+00:00",
-            "published-time": "2026-10-18T12:47:39+00:00"
+            "time": "2026-11-21T03:45:23+00:00",
+            "published-time": "2026-11-21T03:46:19+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.13.3",
+            "version": "2.13.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "6d3cd8285a97eaa352956a4ada92fa03ecce1c4e"
+                "reference": "2bd3dccf56e99cdacf74b1ad5e06a08a5a7739f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/6d3cd8285a97eaa352956a4ada92fa03ecce1c4e",
-                "reference": "6d3cd8285a97eaa352956a4ada92fa03ecce1c4e",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/2bd3dccf56e99cdacf74b1ad5e06a08a5a7739f2",
+                "reference": "2bd3dccf56e99cdacf74b1ad5e06a08a5a7739f2",
                 "shasum": ""
             },
             "require": {
@@ -699,7 +699,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.13.3"
+                "source": "https://github.com/guzzle/psr7/tree/2.13.6"
             },
             "funding": [
                 {
@@ -715,8 +715,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-12T15:57:42+00:00",
-            "published-time": "2026-11-12T15:58:42+00:00"
+            "time": "2026-11-21T23:48:40+00:00",
+            "published-time": "2026-11-21T23:49:39+00:00"
         },
         {
             "name": "guzzlehttp/uri-template",
@@ -807,16 +807,16 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v13.42.0",
+            "version": "v13.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "ac19e4e945513b1bad6744f8ea2626974a036bc0"
+                "reference": "fa25c2dc47d1f41390764044096d9ca09f7d4cc9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/ac19e4e945513b1bad6744f8ea2626974a036bc0",
-                "reference": "ac19e4e945513b1bad6744f8ea2626974a036bc0",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/fa25c2dc47d1f41390764044096d9ca09f7d4cc9",
+                "reference": "fa25c2dc47d1f41390764044096d9ca09f7d4cc9",
                 "shasum": ""
             },
             "require": {
@@ -863,12 +863,12 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-11-04T19:47:22+00:00",
-            "published-time": "2026-11-10T15:54:52+00:00"
+            "time": "2026-11-17T09:00:38+00:00",
+            "published-time": "2026-11-17T14:58:59+00:00"
         },
         {
             "name": "illuminate/conditionable",
-            "version": "v13.42.0",
+            "version": "v13.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/conditionable.git",
@@ -911,11 +911,11 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2026-10-06T02:42:44+00:00",
-            "published-time": "2026-11-10T15:54:56+00:00"
+            "published-time": "2026-11-17T14:59:13+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v13.42.0",
+            "version": "v13.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -960,20 +960,20 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2026-10-29T13:51:55+00:00",
-            "published-time": "2026-11-10T15:55:07+00:00"
+            "published-time": "2026-11-17T14:59:20+00:00"
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v13.42.0",
+            "version": "v13.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "0d47fb23af4069163473b7c28ccb60f671b92d51"
+                "reference": "dace93d888b312fea49d5adcb56a46112747b00f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/0d47fb23af4069163473b7c28ccb60f671b92d51",
-                "reference": "0d47fb23af4069163473b7c28ccb60f671b92d51",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/dace93d888b312fea49d5adcb56a46112747b00f",
+                "reference": "dace93d888b312fea49d5adcb56a46112747b00f",
                 "shasum": ""
             },
             "require": {
@@ -1029,21 +1029,21 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-10-26T13:41:26+00:00",
-            "published-time": "2026-11-10T15:55:22+00:00"
+            "time": "2026-11-11T14:33:49+00:00",
+            "published-time": "2026-11-17T14:59:37+00:00"
         },
         {
             "name": "illuminate/http",
-            "version": "v13.42.0",
+            "version": "v13.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "86dfab0c0898c8e156835c090726c2e0b4b5721f"
+                "reference": "231c5e6f1bea39e28b07eb0d655d7f1f62916fbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/86dfab0c0898c8e156835c090726c2e0b4b5721f",
-                "reference": "86dfab0c0898c8e156835c090726c2e0b4b5721f",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/231c5e6f1bea39e28b07eb0d655d7f1f62916fbb",
+                "reference": "231c5e6f1bea39e28b07eb0d655d7f1f62916fbb",
                 "shasum": ""
             },
             "require": {
@@ -1096,12 +1096,12 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-11-07T13:34:21+00:00",
-            "published-time": "2026-11-10T15:55:27+00:00"
+            "time": "2026-11-17T14:49:00+00:00",
+            "published-time": "2026-11-17T14:59:41+00:00"
         },
         {
             "name": "illuminate/macroable",
-            "version": "v13.42.0",
+            "version": "v13.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -1144,11 +1144,11 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2026-10-06T02:42:44+00:00",
-            "published-time": "2026-11-10T15:56:01+00:00"
+            "published-time": "2026-11-17T14:59:51+00:00"
         },
         {
             "name": "illuminate/reflection",
-            "version": "v13.42.0",
+            "version": "v13.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/reflection.git",
@@ -1196,11 +1196,11 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2026-10-06T02:42:44+00:00",
-            "published-time": "2026-11-10T15:55:57+00:00"
+            "published-time": "2026-11-17T15:00:10+00:00"
         },
         {
             "name": "illuminate/session",
-            "version": "v13.42.0",
+            "version": "v13.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -1254,20 +1254,20 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2026-11-09T20:49:59+00:00",
-            "published-time": "2026-11-10T15:56:09+00:00"
+            "published-time": "2026-11-17T15:00:30+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v13.42.0",
+            "version": "v13.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "f36fc343f02bd13d56c71ed20b441bcb6839cf46"
+                "reference": "4bff2a02d7bdd0ec424c9c04c3dd088cac4b56c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/f36fc343f02bd13d56c71ed20b441bcb6839cf46",
-                "reference": "f36fc343f02bd13d56c71ed20b441bcb6839cf46",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/4bff2a02d7bdd0ec424c9c04c3dd088cac4b56c0",
+                "reference": "4bff2a02d7bdd0ec424c9c04c3dd088cac4b56c0",
                 "shasum": ""
             },
             "require": {
@@ -1333,21 +1333,21 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-11-07T13:38:13+00:00",
-            "published-time": "2026-11-10T15:56:13+00:00"
+            "time": "2026-11-13T15:26:53+00:00",
+            "published-time": "2026-11-17T15:00:30+00:00"
         },
         {
             "name": "kipchak/core",
-            "version": "3.22",
+            "version": "3.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kipchak-dev/core.git",
-                "reference": "db2da1d27f2cb94dbb50d524f1a3d61c7af21e2b"
+                "reference": "b5bc17dddc822cebb2d0000b01a15245a144e29d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kipchak-dev/core/zipball/db2da1d27f2cb94dbb50d524f1a3d61c7af21e2b",
-                "reference": "db2da1d27f2cb94dbb50d524f1a3d61c7af21e2b",
+                "url": "https://api.github.com/repos/kipchak-dev/core/zipball/b5bc17dddc822cebb2d0000b01a15245a144e29d",
+                "reference": "b5bc17dddc822cebb2d0000b01a15245a144e29d",
                 "shasum": ""
             },
             "require": {
@@ -1378,23 +1378,23 @@
                 "microservices"
             ],
             "support": {
-                "source": "https://github.com/kipchak-dev/core/tree/3.22"
+                "source": "https://github.com/kipchak-dev/core/tree/3.23"
             },
-            "time": "2026-11-17T03:01:17+00:00",
-            "published-time": "2026-11-17T03:02:09+00:00"
+            "time": "2026-11-24T03:01:33+00:00",
+            "published-time": "2026-11-24T03:02:57+00:00"
         },
         {
             "name": "kipchak/driver-config",
-            "version": "1.36",
+            "version": "1.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kipchak-dev/driver-config.git",
-                "reference": "5d0622efd6cca8cd1aea5a4dc81500e4c207fb47"
+                "reference": "c6d02607e4c268736a9b30ea4a0dd98ab9f9fdb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kipchak-dev/driver-config/zipball/5d0622efd6cca8cd1aea5a4dc81500e4c207fb47",
-                "reference": "5d0622efd6cca8cd1aea5a4dc81500e4c207fb47",
+                "url": "https://api.github.com/repos/kipchak-dev/driver-config/zipball/c6d02607e4c268736a9b30ea4a0dd98ab9f9fdb0",
+                "reference": "c6d02607e4c268736a9b30ea4a0dd98ab9f9fdb0",
                 "shasum": ""
             },
             "require": {
@@ -1431,23 +1431,23 @@
                 "microservices"
             ],
             "support": {
-                "source": "https://github.com/kipchak-dev/driver-config/tree/1.36"
+                "source": "https://github.com/kipchak-dev/driver-config/tree/1.37"
             },
-            "time": "2026-11-17T03:03:01+00:00",
-            "published-time": "2026-11-17T03:04:26+00:00"
+            "time": "2026-11-24T03:03:40+00:00",
+            "published-time": "2026-11-24T03:04:56+00:00"
         },
         {
             "name": "kipchak/driver-filecache",
-            "version": "1.36",
+            "version": "1.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kipchak-dev/driver-filecache.git",
-                "reference": "5ba02f2e71f6349b513e289471d2a34969b754dc"
+                "reference": "2b70c048e9100b039770b3df905cbc354eea8f55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kipchak-dev/driver-filecache/zipball/5ba02f2e71f6349b513e289471d2a34969b754dc",
-                "reference": "5ba02f2e71f6349b513e289471d2a34969b754dc",
+                "url": "https://api.github.com/repos/kipchak-dev/driver-filecache/zipball/2b70c048e9100b039770b3df905cbc354eea8f55",
+                "reference": "2b70c048e9100b039770b3df905cbc354eea8f55",
                 "shasum": ""
             },
             "require": {
@@ -1488,23 +1488,23 @@
                 "microservices"
             ],
             "support": {
-                "source": "https://github.com/kipchak-dev/driver-filecache/tree/1.36"
+                "source": "https://github.com/kipchak-dev/driver-filecache/tree/1.37"
             },
-            "time": "2026-11-17T03:03:05+00:00",
-            "published-time": "2026-11-17T03:04:32+00:00"
+            "time": "2026-11-24T03:03:42+00:00",
+            "published-time": "2026-11-24T03:05:01+00:00"
         },
         {
             "name": "kipchak/driver-http",
-            "version": "2.20",
+            "version": "2.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kipchak-dev/driver-http.git",
-                "reference": "f4a211ac067f5a357e2cd589743d356f61ac059c"
+                "reference": "6a7c6fa210cfe86ea9985206be8704dd6f98789a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kipchak-dev/driver-http/zipball/f4a211ac067f5a357e2cd589743d356f61ac059c",
-                "reference": "f4a211ac067f5a357e2cd589743d356f61ac059c",
+                "url": "https://api.github.com/repos/kipchak-dev/driver-http/zipball/6a7c6fa210cfe86ea9985206be8704dd6f98789a",
+                "reference": "6a7c6fa210cfe86ea9985206be8704dd6f98789a",
                 "shasum": ""
             },
             "require": {
@@ -1555,10 +1555,10 @@
                 "microservices"
             ],
             "support": {
-                "source": "https://github.com/kipchak-dev/driver-http/tree/2.20"
+                "source": "https://github.com/kipchak-dev/driver-http/tree/2.21"
             },
-            "time": "2026-11-17T03:05:44+00:00",
-            "published-time": "2026-11-17T03:10:11+00:00"
+            "time": "2026-11-24T03:06:00+00:00",
+            "published-time": "2026-11-24T03:10:48+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -2603,16 +2603,16 @@
         },
         {
             "name": "radebatz/type-info-extras",
-            "version": "1.0.15",
+            "version": "1.0.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/DerManoMann/type-info-extras.git",
-                "reference": "adb5082eae14dde073293f6674ce203f81dbb7ec"
+                "reference": "f2415d2abbf014d1f511c37a87243c80e3da0547"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/DerManoMann/type-info-extras/zipball/adb5082eae14dde073293f6674ce203f81dbb7ec",
-                "reference": "adb5082eae14dde073293f6674ce203f81dbb7ec",
+                "url": "https://api.github.com/repos/DerManoMann/type-info-extras/zipball/f2415d2abbf014d1f511c37a87243c80e3da0547",
+                "reference": "f2415d2abbf014d1f511c37a87243c80e3da0547",
                 "shasum": ""
             },
             "require": {
@@ -2660,10 +2660,10 @@
             ],
             "support": {
                 "issues": "https://github.com/DerManoMann/type-info-extras/issues",
-                "source": "https://github.com/DerManoMann/type-info-extras/tree/1.0.15"
+                "source": "https://github.com/DerManoMann/type-info-extras/tree/1.0.16"
             },
-            "time": "2026-11-16T22:02:45+00:00",
-            "published-time": "2026-11-16T22:06:15+00:00"
+            "time": "2026-11-19T23:35:25+00:00",
+            "published-time": "2026-11-19T23:44:22+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -5726,16 +5726,16 @@
     "packages-dev": [
         {
             "name": "flagsmith/flagsmith-php-client",
-            "version": "5.4.0",
+            "version": "5.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Flagsmith/flagsmith-php-client.git",
-                "reference": "0ebcca7f21156de96db2123424042163ff7bd0ed"
+                "reference": "597dc6d974b8941af56c949e944d91877966323a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Flagsmith/flagsmith-php-client/zipball/0ebcca7f21156de96db2123424042163ff7bd0ed",
-                "reference": "0ebcca7f21156de96db2123424042163ff7bd0ed",
+                "url": "https://api.github.com/repos/Flagsmith/flagsmith-php-client/zipball/597dc6d974b8941af56c949e944d91877966323a",
+                "reference": "597dc6d974b8941af56c949e944d91877966323a",
                 "shasum": ""
             },
             "require": {
@@ -5778,10 +5778,10 @@
             ],
             "support": {
                 "issues": "https://github.com/Flagsmith/flagsmith-php-client/issues",
-                "source": "https://github.com/Flagsmith/flagsmith-php-client/tree/v5.4.0"
+                "source": "https://github.com/Flagsmith/flagsmith-php-client/tree/v5.5.0"
             },
-            "time": "2026-11-16T17:50:51+00:00",
-            "published-time": "2026-11-16T17:51:06+00:00"
+            "time": "2026-11-23T15:13:10+00:00",
+            "published-time": "2026-11-23T15:13:26+00:00"
         },
         {
             "name": "growthbook/growthbook",
@@ -6510,16 +6510,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "12.5.44",
+            "version": "12.5.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "47d052b58672b016b512974c1139346306c8ca24"
+                "reference": "ca97be2931de6a0adf824da12889cbf935a016e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/47d052b58672b016b512974c1139346306c8ca24",
-                "reference": "47d052b58672b016b512974c1139346306c8ca24",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ca97be2931de6a0adf824da12889cbf935a016e9",
+                "reference": "ca97be2931de6a0adf824da12889cbf935a016e9",
                 "shasum": ""
             },
             "require": {
@@ -6588,7 +6588,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.44"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/12.5.45"
             },
             "funding": [
                 {
@@ -6596,8 +6596,8 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-11-13T11:09:06+00:00",
-            "published-time": "2026-11-13T11:09:57+00:00"
+            "time": "2026-11-19T12:16:09+00:00",
+            "published-time": "2026-11-19T12:17:59+00:00"
         },
         {
             "name": "sebastian/cli-parser",
